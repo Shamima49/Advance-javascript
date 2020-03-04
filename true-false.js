@@ -1,4 +1,4 @@
-        //   Flasy
+        //   Falsy
         //   0
         //   ""
         //   false
@@ -16,11 +16,10 @@
 
 
 
+const age = 0;
+const name = "salman khan";
 
-
-//const age = 0;
-//const name = "salman khan";
-//if(name.length>0){
+if(name.length>0){
     const age = "";
     if(age){
     console.log("condition is true");
@@ -30,3 +29,4 @@ else{
 }
 let name;
 console.log(name);
+}
